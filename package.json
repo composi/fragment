@@ -25,12 +25,6 @@
     "url": "https://github.com/composi/fragment/issues"
   },
   "homepage": "https://github.com/composi/fragment#readme",
-  "jest": {
-    "moduleDirectories": [
-      "node_modules/@composi/core/src",
-      "src"
-    ]
-  },
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "@babel/plugin-external-helpers": "^7.0.0",
@@ -38,10 +32,7 @@
     "@babel/preset-env": "^7.1.0",
     "browser-sync": "^2.21.0",
     "@composi/core": "latest",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
     "eslint": "^4.19.1",
-    "jest": "^23.6.0",
     "prettier": "^1.13.7",
     "rollup": "^0.65.2",
     "rollup-plugin-babel": "^4.0.3",

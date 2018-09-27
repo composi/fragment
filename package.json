@@ -1,0 +1,56 @@
+{
+  "name": "@composi/fragment",
+  "version": "1.0.0",
+  "description": "A function to return a collection of sibling elements to be consumed by another component. For use with @composi/core.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "checkjs": "tsc --allowJs --checkJs --noEmit --moduleResolution node --target ES6 src/*.js",
+    "format": "prettier --no-semi --single-quote --write ./src/*.js",
+    "lint": "eslint --config ./.eslintrc.json src",
+    "prepare": "npm run format && npm run lint && npm run checkjs && npm run test",
+    "test": "browser-sync . --index test/fragment.html"
+  },
+  "keywords": [
+    "composi",
+    "frontend",
+    "render",
+    "jsx",
+    "virtual dom",
+    "fragment"
+  ],
+  "author": "Robert Biggs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/composi/fragment/issues"
+  },
+  "homepage": "https://github.com/composi/fragment#readme",
+  "jest": {
+    "moduleDirectories": [
+      "node_modules/@composi/core/src",
+      "src"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-transform-parameters": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "browser-sync": "^2.21.0",
+    "@composi/core": "latest",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^4.19.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.13.7",
+    "rollup": "^0.65.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-babel-minify": "^6.0.0",
+    "rollup-plugin-commonjs": "^8.2.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "typescript": "^3.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

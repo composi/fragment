@@ -1,6 +1,6 @@
 {
   "name": "@composi/fragment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function to return a collection of sibling elements to be consumed by another component. For use with @composi/core.",
   "main": "src/index.js",
   "scripts": {

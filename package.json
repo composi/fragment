@@ -1,6 +1,6 @@
 {
   "name": "@composi/fragment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A function to return a collection of sibling elements to be consumed by another component. For use with @composi/core.",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "checkjs": "tsc --allowJs --checkJs --noEmit --moduleResolution node --target ES6 src/*.js",
     "format": "prettier --no-semi --single-quote --write ./src/*.js",
     "lint": "eslint --config ./.eslintrc.json src",
-    "prepare": "npm run format && npm run lint && npm run checkjs && npm run test",
+    "start": "npm run format && npm run lint && npm run checkjs && npm run test",
     "test": "browser-sync . --index test/fragment.html"
   },
   "keywords": [

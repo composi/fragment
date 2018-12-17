@@ -1,6 +1,6 @@
 {
   "name": "@composi/fragment",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A function to return a collection of sibling elements to be consumed by another component. For use with @composi/core.",
   "main": "src/index.js",
   "scripts": {
@@ -26,14 +26,14 @@
   },
   "homepage": "https://github.com/composi/fragment#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.0",
+    "@babel/core": "^7.2.2",
     "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/plugin-transform-parameters": "^7.1.0",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-env": "^7.2.0",
     "browser-sync": "^2.21.0",
-    "@composi/core": "0.7.0",
+    "@composi/core": "1.1.2",
     "eslint": "^4.19.1",
-    "prettier": "^1.13.7",
+    "prettier": "^1.15.3",
     "rollup": "^0.65.2",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-babel-minify": "^6.0.0",
